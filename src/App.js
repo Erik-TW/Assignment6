@@ -9,10 +9,7 @@ import GradeSortButton from './components/GradeSortButton';
 
 class App extends Component {
   state = {
-    movieList : [
-      {title: "star wars", grade: 3},
-      {title: "star wars 2", grade: 4}
-    ],
+    movieList : [],
     title : "",
     grade : 0
   }
